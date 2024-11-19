@@ -28,7 +28,7 @@ async function getStations() {
     channelAudio.className = "channelAudio";
     parentDiv.className = "parentDiv";
     titleAndPlayer.className = "titleAndPlayer";
-    
+
     parentDiv.style.backgroundColor = `#${data.color}`;
 
     channelImg.src = data.image;
@@ -36,7 +36,6 @@ async function getStations() {
     channelAudio.src = data.liveaudio.url;
     channelAudio.controls = true;
     channelAudio.type = "audio/mpeg";
-
 
     channelElement.appendChild(parentDiv);
     parentDiv.appendChild(channelImg);
