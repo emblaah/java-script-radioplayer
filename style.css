@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#channels {
+  display: block;
+  justify-items: center;
+}
+
+.channelName {
+  font-size: 40px;
+}
+
+.channelImg {
+  width: 200px;
+}
+
+.channelAudio {
+  display: flex;
+  align-content: center;
+  width: 270px;
+}
+
+.titleAndPlayer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px;
+
+}
+
+.parentDiv {
+  display: flex;
+  width: 500px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
